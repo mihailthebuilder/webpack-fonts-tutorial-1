@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo-output",
+  "version": "1.0.0",
+  "description": "Following along the Output Management section of the webpack guide: https://webpack.js.org/guides/output-management/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihailthebuilder/webpack-demo-output.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihailthebuilder/webpack-demo-output/issues"
+  },
+  "homepage": "https://github.com/mihailthebuilder/webpack-demo-output#readme",
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
